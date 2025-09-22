@@ -114,4 +114,17 @@ class PlayerPointCalculatorFactory:
 
 # 4. 코드 커버리지100%
 ### D5 - 리팩토링이 끝난코드에, 코드 커버리지가100% 되어야한다
+ >> vscode 내 pytest 로 실행
+<img width="380" height="392" alt="image" src="https://github.com/user-attachments/assets/400bba34-486a-44fd-8360-fcea29defc97" />
+<img width="838" height="632" alt="image" src="https://github.com/user-attachments/assets/1c1cfb53-baa9-4328-9254-23c1b24ef0d3" />
+
+>> code coverage 100% 미만 코드 관련 내용
+>> 1. mission2-main.py (run_baseball_system()) 
+<img width="1410" height="465" alt="image" src="https://github.com/user-attachments/assets/5e44fbe1-734e-43be-a397-02f09a53da65" />
+
+>> 2. mission2-grade_evaluator.py : 코드상 모든 분기분 커버하는 테스트코드 작성하였으나, 만족 안함으로 나옴(모든 케이스 커버하는 테스트코드 작성완료 - tests - mission2_grade_evaluator.py)
+<img width="891" height="433" alt="image" src="https://github.com/user-attachments/assets/b8ff48cc-6c72-414f-8986-d5e153aee06c" />
+
+>> 3. mission1-attendance.py : 테스트코드 미대상 코드로, 함수레벨 리팩터링 관련하여 test code 작성, open line 과 file 없음 관련 exception 행에 대해서 로직과 상관없음
+<img width="2039" height="748" alt="image" src="https://github.com/user-attachments/assets/716d66b9-abb2-46c5-b755-2037b813704e" />
 
