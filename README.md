@@ -45,6 +45,29 @@ class GradeEvaluator:
                 return grade
 ```
 
+>> 클라이언트 코드에서 등급 추가되더라도, 변경 없음(mission2 - result_printer.py)
+```
+from mission2.player import Player
+
+
+class ResultPrinter:
+    @staticmethod
+    def print_player_status(players: list[Player]):
+        for player in players:
+            print(
+                f"NAME : {player.name}, POINT : {player.total_point}, GRADE : {player.grade.name}",
+            )
+
+    @staticmethod
+    def print_removed_player_list(removed_players: list[Player]):
+        print("\nRemoved player")
+        print("==============")
+        for player in removed_players:
+            print(player.name)
+
+```
+
+
 # 3. 디자인 패턴사용하기
 ### D4 - 리팩토링에 디자인패턴을적용한다.
 >> Factory Method / Strategy pattern 적용
@@ -127,5 +150,6 @@ class PlayerPointCalculatorFactory:
 
 >> 3. mission1-attendance.py : 테스트코드 미대상 코드로, 함수레벨 리팩터링 관련하여 test code 작성, open line 과 file 없음 관련 exception 행에 대해서 로직과 상관없음
 <img width="2039" height="748" alt="image" src="https://github.com/user-attachments/assets/716d66b9-abb2-46c5-b755-2037b813704e" />
+
 
 
