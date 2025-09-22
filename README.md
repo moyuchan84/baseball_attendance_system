@@ -1,4 +1,4 @@
-### 요구사항 체크리스트
+<img width="1459" height="807" alt="image" src="https://github.com/user-attachments/assets/620a589f-57b7-4a3d-be32-4cd78666422e" />### 요구사항 체크리스트
 
 | 요구사항 | 확인 |
 | :--- | :---: |
@@ -151,5 +151,7 @@ class PlayerPointCalculatorFactory:
 >> 3. mission1-attendance.py : 테스트코드 미대상 코드로, 함수레벨 리팩터링 관련하여 test code 작성, open line 과 file 없음 관련 exception 행에 대해서 로직과 상관없음
 <img width="2039" height="748" alt="image" src="https://github.com/user-attachments/assets/716d66b9-abb2-46c5-b755-2037b813704e" />
 
+>> 4. mission1- point_calculator.py : 행중에서 abstact method 내 pass 행 테스트 미실시(로직과 상관없음)
+<img width="1459" height="807" alt="image" src="https://github.com/user-attachments/assets/9cab5684-d018-4d5c-9347-e4b48aad71ce" />
 
 
