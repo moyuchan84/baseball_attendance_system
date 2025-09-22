@@ -10,12 +10,12 @@
 
 # 1. 함수 레벨리팩토링
 ### D1 - 가독성있는 코드로메서드추상화, 가독성좋은네이밍사용
->> mission1 - attendance.py 파일 작성
+>> mission1 - attendance.py 파일 작성 (https://github.com/moyuchan84/baseball_attendance_system/blob/main/mission1/attendance.py)
 
 
 # 2. 클래스 레벨리팩토링
 ### D2 - Regression Test를 위한 Unit Test 개발
->> tests 폴더에 unit-test 는 별도로 분리 개발 (mission2_module명.py)로 개발
+>> tests 폴더에 unit-test 는 별도로 분리 개발 (mission2_module명.py)로 개발 (https://github.com/moyuchan84/baseball_attendance_system/tree/main/tests)
 <img width="368" height="608" alt="image" src="https://github.com/user-attachments/assets/1627c8ad-b24b-4f52-b990-c6176a0a14f9" />
 
 ### D3 – 확장성을 고려한설계, 정책과 등급이추가되더라도Client Code에 변경이 없도록 한다. 
@@ -127,4 +127,5 @@ class PlayerPointCalculatorFactory:
 
 >> 3. mission1-attendance.py : 테스트코드 미대상 코드로, 함수레벨 리팩터링 관련하여 test code 작성, open line 과 file 없음 관련 exception 행에 대해서 로직과 상관없음
 <img width="2039" height="748" alt="image" src="https://github.com/user-attachments/assets/716d66b9-abb2-46c5-b755-2037b813704e" />
+
 
