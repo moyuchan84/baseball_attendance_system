@@ -139,7 +139,8 @@ class PlayerPointCalculatorFactory:
 ### D5 - 리팩토링이 끝난코드에, 코드 커버리지가100% 되어야한다
  >> vscode 내 pytest 로 실행
 <img width="380" height="392" alt="image" src="https://github.com/user-attachments/assets/400bba34-486a-44fd-8360-fcea29defc97" />
-<img width="838" height="632" alt="image" src="https://github.com/user-attachments/assets/1c1cfb53-baa9-4328-9254-23c1b24ef0d3" />
+<img width="1523" height="1125" alt="image" src="https://github.com/user-attachments/assets/32d50e9b-8cc6-4fe9-a74d-0e1d93b9fbbd" />
+
 
 >> code coverage 100% 미만 코드 관련 내용
 >> 1. mission2-main.py (run_baseball_system()) 
@@ -153,5 +154,6 @@ class PlayerPointCalculatorFactory:
 
 >> 4. mission1- point_calculator.py : 행중에서 abstact method 내 pass 행 테스트 미실시(로직과 상관없음)
 <img width="1459" height="807" alt="image" src="https://github.com/user-attachments/assets/9cab5684-d018-4d5c-9347-e4b48aad71ce" />
+
 
 
