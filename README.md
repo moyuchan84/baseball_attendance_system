@@ -16,6 +16,7 @@
 # 2. 클래스 레벨리팩토링
 ### D2 - Regression Test를 위한 Unit Test 개발
 >> tests 폴더에 unit-test 는 별도로 분리 개발 (mission2_module명.py)로 개발
+<img width="368" height="608" alt="image" src="https://github.com/user-attachments/assets/1627c8ad-b24b-4f52-b990-c6176a0a14f9" />
 
 ### D3 – 확장성을 고려한설계, 정책과 등급이추가되더라도Client Code에 변경이 없도록 한다. 
 >> mission2.grade_enum.py 내 grade - cutline 선언 (cf - 음수가 들어올 일은 없으나, 예외 case 위한 NONE 추가 선언)
@@ -113,3 +114,4 @@ class PlayerPointCalculatorFactory:
 
 # 4. 코드 커버리지100%
 ### D5 - 리팩토링이 끝난코드에, 코드 커버리지가100% 되어야한다
+
